@@ -3,7 +3,7 @@ https://www.pyohio.org/2025/program/talks/a-very-brief-overview-of-pythons-lang-
 
 ## A Very Brief Overview of Python’s “Lang” AI Tools and Two Low-Code GUI AI Tools: Flowise and n8n
 30 Minute Talk
-Sunday July 27, 2025 at 2:45 pm in Ballroom C
+Given on Sunday July 27, 2025 at 2:45 pm in Ballroom C, at PyOhio in Cleveland, Ohio.
 
 AI is the theme of the moment - and even as a pythonista you might not know where to begin, or you may have started as you had time - and wished to go further. This talk is a guide about where some have gone, and where you might want to go with AI in python. But it is not the last stop. This talk is designed to be a stating guide to move from hobbyist level AI learning to more production-ready coding.
 
