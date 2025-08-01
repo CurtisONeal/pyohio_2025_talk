@@ -9,9 +9,9 @@ https://www.pyohio.org/2025/program/talks/a-very-brief-overview-of-pythons-lang-
 A pdf file of the presentation is in the main repo. Most people will want this.
 
 ### Slidev
-This talk was presented in sliidev, which is like Powerpoint for people who need to present code, and is written in Javascript run in NodeJS.
+This talk was presented in slidev, which is like Powerpoint for people who need to present code, and is written in Javascript and runs in NodeJS.
 
-The Slidev componenets that don't duplicate Node_modules are in the repo. Please see the slidev_README.md for more details if this is of use.
+The repo contains only the Slidev componenets that won't duplicate Node_modules are in the repo. Please see the slidev_README.md for more details if this is of use.
 
 
 # Talk Summary
