@@ -67,7 +67,7 @@ It would be possible for you to reproduce the effect by following the Flowise in
 My thanks go out to: 
 - [Pyohio](https://www.pyohio.org/)
 - [CLEpy and company](https://www.meetup.com/cleveland-area-python-interest-group/)
-- [Pyladies local chapter (for the joint sessions with CLEpy)] (https://www.meetup.com/cle-pyladies/)
+- [Pyladies local chapter (for the joint sessions with CLEpy)](https://www.meetup.com/cle-pyladies/)
 - [Clevalend AI & Data](https://www.meetup.com/cleveland-ai-data/)
 - [AI Woodstock CLI](https://www.meetup.com/ai-woodstock-cle)
 - [The Python Foundation](https://www.python.org/psf-landing/), and 
