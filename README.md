@@ -1,6 +1,6 @@
 # pyohio_2025_talk
 
-This repo is for the presentation in pdf and slidev formats of my talk presented on  2025_07_29 at CSU, at the 2025 PyOhio conference.
+This repo is for my talk presented on  2025_07_29 at CSU, at the 2025 PyOhio conference, in bothpdf and slidev formats.
 
 https://www.pyohio.org/2025/program/talks/a-very-brief-overview-of-pythons-lang-ai-tools-and-two-low-code/
 
