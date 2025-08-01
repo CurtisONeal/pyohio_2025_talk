@@ -1,0 +1,37 @@
+{
+  "name": "Weather Monitoring with Alerts",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [{"field": "cronExpression", "value": "0 */6 * * *"}]
+        }
+      },
+      "name": "Schedule Trigger",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "https://api.openweathermap.org/data/2.5/weather",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {"name": "q", "value": "New York"},
+            {"name": "appid", "value": "={{$credentials.openWeatherMapApi.apiKey}}"},
+            {"name": "units", "value": "metric"}
+          ]
+        }
+      },
+      "name": "Current Weather",
+      "type": "n8n-nodes-base.httpRequest",
+      "position": [460, 300]
+    }
+  ],
+  "connections": {
+    "Schedule Trigger": {
+      "main": [[{"node": "Current Weather", "type": "main", "index": 0}]]
+    }
+  }
+}

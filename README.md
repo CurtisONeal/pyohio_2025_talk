@@ -1,5 +1,21 @@
 # pyohio_2025_talk
+
+This repo is for the presentation in pdf and slidev formats of my talk presented on  2025_07_29 at CSU, at the 2025 PyOhio conference.
+
 https://www.pyohio.org/2025/program/talks/a-very-brief-overview-of-pythons-lang-ai-tools-and-two-low-code/
+
+
+## About
+A pdf file of the presentation is in the main repo. Most people will want this.
+
+### Slidev
+This talk was presented in sliidev, which is like Powerpoint for people who need to present code, and is written in Javascript run in NodeJS.
+
+The Slidev componenets that don't duplicate Node_modules are in the repo. Please see the slidev_README.md for more details if this is of use.
+
+
+# Talk Summary
+
 
 ## A Very Brief Overview of Python’s “Lang” AI Tools and Two Low-Code GUI AI Tools: Flowise and n8n
 30 Minute Talk
@@ -19,3 +35,44 @@ Given the time, this will be a very quick tour of these concepts with both image
 
 Presented by
 Curtis Oneal
+
+
+# Structure
+
+My original plan for the talk included a take home project that would use a weather API and google email api. I later realized that the google api key is not easy for every user to get. My second version of this was discontinued in the interest of time. I may add the files in a later update to the repo. 
+
+## /platform_setup_documentation
+
+There are various markdown files in this folder for more options and details for setting up N8N and Flowise than are in the presentation.
+
+- Langflow set up details are not needed beyond the slide commands.
+
+- I plan to adjust a jupyter notebook with a Langchain demo.
+
+## /images
+These are image files from the presentation
+
+- I'll likely update the images with captures of what was shown in the brief walk throughs, or what should have been shown, but I had technical difficulties and a compressed timeline - and moved on.
+
+## /components
+
+The /components file in a slidev project hold any custom javascript elements.
+
+There is a custom chatbot element that was made with the Javascript embed code for the flowise bot ( The reference is for a bot made on my local). 
+
+It would be possible for you to reproduce the effect by following the Flowise install steps from either the slide or from /platform_setup_documentation
+
+## Thanks
+
+My thanks go out to: 
+- [Pyohio](https://www.pyohio.org/)
+- [CLEpy and company](https://www.meetup.com/cleveland-area-python-interest-group/)
+- [Pyladies local chapter (for the joint sessions with CLEpy)] (https://www.meetup.com/cle-pyladies/)
+- [Clevalend AI & Data](https://www.meetup.com/cleveland-ai-data/)
+- [AI Woodstock CLI](https://www.meetup.com/ai-woodstock-cle)
+- [The Python Foundation](https://www.python.org/psf-landing/), and 
+- [Meta](https://www.meta.com/) for supporting the conference, and to 
+- [BlueSkyAI](https://blueskyai.co/) for the fantastic opportunity to be immersed in GentAI and Data Science daily.
+
+
+

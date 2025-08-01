@@ -1,0 +1,47 @@
+- Agent Flow: A workflow that contains multiple agents.
+- Agent: A more autonomous and intelligent component in FlowiseAI that can make decisions and utilize tools to achieve a goal.
+- API Key: A unique identifier used to authenticate and authorize access to an API (Application Programming Interface).
+- API: Application Programming Interface.
+- Chain: A linear sequence of components in FlowiseAI designed to process language in a specific order.
+- Chat ID: A unique identifier for a specific chat or user in Telegram.
+- Cloud Instance: Deploying and running FlowiseAI on a remote server, such as those provided by Render or Railway.
+- Condition Node: A component in sequential agents that allows the flow to branch based on certain criteria.
+- Credentials: Securely stored information (like API keys) required to access external services.
+- Docker: A platform for developing, shipping, and running applications in containers.
+- Document Store: A component in FlowiseAI used to store and manage collections of documents for knowledge retrieval.
+- Embeddings: Numerical representations of text that capture its semantic meaning, used for comparing the similarity between pieces of text.
+- Environment Variables (Render): Dynamic named values that can affect the way running processes will behave on the Render platform.
+- Export/Import Flow: The process of saving a FlowiseAI workflow to a file and loading it into another instance.
+- FlowiseAI: A visual platform that allows users to build custom AI workflows and agents without writing code.
+- Fork: A copy of a repository on GitHub.
+- GitHub: A web-based platform used for version control and collaboration on software development projects.
+- Global Variables: Variables that can be defined and accessed by all flows within a FlowiseAI instance.
+- Human in the Loop: A feature that allows for human intervention and approval during the execution of an AI workflow.
+- Large Language Model (LLM): A deep learning model trained on a massive amount of text data, capable of understanding and generating human-like language (e.g., GPT-4, Claude, Llama).
+- Local Instance: Running FlowiseAI directly on your own computer.
+- Loop Node: A component in sequential agents that allows for repeating a previous step in the flow.
+- Marketplace: A section within FlowiseAI where users can discover and add pre-built tools and components.
+- Memory: The ability of a chat flow or agent to retain information from previous interactions.
+- Multi-Agent: A system with multiple agents working together. An approach in FlowiseAI where multiple AI agents work together to solve a complex task, often with a supervisor agent managing the process.
+- n8n (or Make.com): Automation platforms that can be used to integrate FlowiseAI with other applications and services, like Telegram. A workflow automation tool.
+- Node.js: A JavaScript runtime environment that allows you to run JavaScript on the server-side.
+- Node: A building block in a FlowiseAI workflow, representing a specific action or component (e.g., a language model, a tool, memory).
+- npx: A package runner tool that comes bundled with npm (Node Package Manager), often used to execute Node.js packages.
+- Output Parser: A tool for structuring the output of an LLM.
+- Prompt Template: A predefined structure for providing instructions to an LLM.
+- Prompt: The input text provided to an LLM to guide its response.
+- Record Manager: A tool for managing and tracking data changes. A component used to track and manage documents that have been processed and added to a vector store, preventing duplicates.
+- Render: A cloud platform for deploying web applications.
+- Retriever Tool: A FlowiseAI tool that fetches relevant documents from a document store based on a user's query.
+- Sequential Agents: An approach in FlowiseAI where a series of agents execute tasks in a predefined order.
+- SERP API: Search Engine Results Page API.
+- Supervisor Node: An agent in a multi-agent system responsible for delegating tasks and managing the workflow of other agents.
+- System Prompt: A specific type of prompt used to define the behavior, role, and persona of a chatbot or agent.
+- Telegram Bot: A third-party application that runs inside Telegram, often used for automated messaging and interactions.
+- Telegram: A messaging platform.
+- Text Splitter: A process of dividing large documents into smaller, more manageable chunks.
+- Tool: An external function or integration that an AI agent can use to perform specific tasks (e.g., searching the web, performing calculations).
+- Upsert: An operation that inserts new data or updates existing data in a database or store.
+- Vector Store: A type of database optimized for storing and querying vector embeddings.
+- Worker Node: An individual agent within a multi-agent system that performs specific sub-tasks.
+- Workflow (or Flow): A sequence of interconnected nodes in FlowiseAI that defines a specific AI task or application.
