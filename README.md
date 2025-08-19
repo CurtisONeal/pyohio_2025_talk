@@ -6,7 +6,7 @@ https://www.pyohio.org/2025/program/talks/a-very-brief-overview-of-pythons-lang-
 
 
 ## About
-A pdf file of the presentation is in the main repo. Most people will want this.
+A pdf file of the presentation is in the main repo. Most people will want this. [Link to PDF](https://github.com/CurtisONeal/pyohio_2025_talk/blob/main/A%20Very%20Brief%20Overview%20of%20Pythons%20Lang%20AI%20Tools%20and%20Two%20Low-Code%20GUI%20AITools_%20Flowise%20and%20N8N%20-%20Slidev.pdf)
 
 ### Slidev
 This talk was presented in slidev, which is like Powerpoint for people who need to present code, and is written in Javascript and runs in NodeJS.
